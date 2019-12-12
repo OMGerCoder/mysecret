@@ -5,3 +5,11 @@
 build
 
 bin
+
+# Ignore config
+
+.vscode
+
+.idea/
+
+mysecret.iml
