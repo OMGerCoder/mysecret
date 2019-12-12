@@ -30,5 +30,12 @@ public class App {
     		Thread.currentThread().interrupt();
     	}
     	System.out.println("YOU DID IT! I AM COMING FOR YOU!");
+		try {
+			Thread.sleep(2000);
+		}
+		catch(InterruptedException ex) {
+			Thread.currentThread().interrupt();
+		}
+		System.out.println("By OMGer. By the way, that was fake.");
     }
 }
